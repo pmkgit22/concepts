@@ -1,0 +1,36 @@
+// in json everything in brackets {} comma, colan :
+
+{
+    "name": "munikumar",
+    "dob": "06-05-1981",
+
+    //This is map inside map everything is key value pair 
+    //then you can go with list of adress with normal brackets
+    "adress": {
+        "country": "India",
+        "city": "Hyderabad"
+
+    }
+    
+}
+//This is for list of adress writing seperately for nested
+
+{
+    "name": "munikumar",
+    "dob": "06-05-1981",
+
+    "adress": [
+        {
+            "country": "India",
+            "city": "Hyderabad",
+            "type": "CurrentAdress"
+        }
+        {
+            "country": "India",
+            "city": "Nellore",
+            "type": "PermanentAdress"
+            }
+
+    ]
+
+}

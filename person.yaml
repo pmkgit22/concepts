@@ -1,0 +1,38 @@
+# In yaml indentation matters is proper gap or space
+person:
+- name: munikumar
+  dob: 06-05-1981
+  #This is map means map of single adress
+  Adress: 
+    country: India
+    city: hyderabad
+    Dno: 2/441
+
+  #This is list of adresses
+  Addresses: 
+  - type: perm
+    country: India
+    city: hyderabad
+    Dno: 2/441
+  - type: curr
+    country: India
+    city: nellore
+    Dno: 2/661
+- name: swathi
+  dob: 25-12-1991
+  #This is map means map of single adress
+  Adress: 
+    country: Africa
+    city: capetown
+    Dno: 2/441
+
+  #This is list of adresses seperate with - hyphen
+  Addresses: 
+  - type: perm
+    country: Africa
+    city: Capetown
+    Dno: 2/441111
+  - type: curr
+    country: gergia
+    city: neltanzania
+    Dno: 2/661333    

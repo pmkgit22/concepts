@@ -1,0 +1,14 @@
+<Person>
+    <Name>Munikumar</Name>
+    <DOB>06-05-1981</DOB>
+    <Adress>
+        <Permanent_Adress>
+            <Country>India</Country> 
+            <City>HYD</City>  
+       </Permanent_Adress> 
+       <Present_Adress>
+            <Country>India</Country> 
+            <City>NLR</City>  
+       </Present_Adress>    
+    </Adress>
+</Person>
